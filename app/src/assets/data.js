@@ -132,6 +132,72 @@ const movies = [
     background:
       "https://static1.moviewebimages.com/wordpress/wp-content/uploads/2022/02/cube-4-1.png?q=50&fit=crop&w=1280&dpr=1.5",
   },
+  {
+    _id: "5",
+    name: "The Fly (1958)",
+    release: 1958,
+    cast: [
+      {
+        name: "Vincent Price",
+      },
+      {
+        name: "David Hedison",
+      },
+      {
+        name: "Patricia Owens",
+      },
+      {
+        name: "Herbert Marshall",
+      },
+    ],
+    director: "Kurt Neumann",
+    synopsis:
+      "When scientist Andre Delambre (Al Hedison) tests his matter transporter on himself, an errant housefly makes its way into the transportation chamber, and things go horribly wrong. As a result, Delambre's head and arm are now that of the insect. Slowly losing himself to the fly, Delambre turns to his wife, Helene (Patricia Owens), for help. But when tragedy strikes, Delambre's brother (Vincent Price) and Inspector Charas (Herbert Marshall) are forced to pick up the investigation.",
+    why_you_should_watch:
+      "Even tho it gives off the impression that it's a silly monster flick, there's actually allot of great in taking the premiss seriously, plus it's SciFi Horror :D",
+    where_to_watch: {
+      can_stream: false,
+      where: null,
+      link: null,
+    },
+    trailer: "https://youtu.be/mgDypzKO5co",
+    poster:
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTRfFWrdgxw9DtFy1Z7Rs258mKG5-SWHLBmRp1qna2G8VJexI2Q",
+    background: "http://www.skjam.com/wp-content/uploads/2019/09/Fly.png",
+  },
+  {
+    _id: "6",
+    name: "The Fly (1986)",
+    release: 1986,
+    cast: [
+      {
+        name: "Jeff Goldblum",
+      },
+      {
+        name: "David Cronenberg",
+      },
+      {
+        name: "Geena Davis",
+      },
+      {
+        name: "Vincent Price",
+      },
+    ],
+    director: "David Cronenberg",
+    synopsis:
+      "When scientist Seth Brundle (Jeff Goldblum) completes his teleportation device, he decides to test its abilities on himself. Unbeknownst to him, a housefly slips in during the process, leading to a merger of man and insect. Initially, Brundle appears to have undergone a successful teleportation, but the fly's cells begin to take over his body. As he becomes increasingly fly-like, Brundle's girlfriend (Geena Davis) is horrified as the person she once loved deteriorates into a monster.",
+    why_you_should_watch:
+      "You may be suprised that I'd put the remake in this list along with the original, but it's for sure one of the best remakes of any horror flick. Be prepared for some real nasty body horror and gore lol",
+    where_to_watch: {
+      can_stream: false,
+      where: null,
+      link: null,
+    },
+    trailer: "https://youtu.be/bdB02IufaW0",
+    poster:
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQghUc1FQu2yWYV8gY3qSLM6w63azBc7UYjB2sr53N0_ZyiA57v",
+    background: "https://media.timeout.com/images/101630201/750/422/image.jpg",
+  },
 ];
 
 export default movies;
