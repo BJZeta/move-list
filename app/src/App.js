@@ -11,7 +11,7 @@ function App() {
           <FaSkull className="mx-auto" />
         </span>
         <div className="mt-5">
-          {movies && movies.map((movie) => <MovieItem movieData={movie} />)}
+          {movies && movies.map((movie) => <MovieItem key={movie._id} movieData={movie} />)}
         </div>
       </div>
     </div>

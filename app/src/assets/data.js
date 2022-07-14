@@ -198,6 +198,39 @@ const movies = [
       "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQghUc1FQu2yWYV8gY3qSLM6w63azBc7UYjB2sr53N0_ZyiA57v",
     background: "https://media.timeout.com/images/101630201/750/422/image.jpg",
   },
+  {
+    _id: "7",
+    name: "An American Werewolf in London",
+    release: 1981,
+    cast: [
+      {
+        name: "David Naughton",
+      },
+      {
+        name: "Griffin Dunne",
+      },
+      {
+        name: "Jenny Agutter",
+      },
+      {
+        name: "John Woodvine",
+      },
+    ],
+    director: "John Landis",
+    synopsis:
+      "David (David Naughton) and Jack (Griffin Dunne), two American college students, are backpacking through Britain when a large wolf attacks them. David survives with a bite, but Jack is brutally killed. As David heals in the hospital, he's plagued by violent nightmares of his mutilated friend, who warns David that he is becoming a werewolf. When David discovers the horrible truth, he contemplates committing suicide before the next full moon causes him to transform from man to murderous beast.",
+    why_you_should_watch:
+      "This is hands down the best werewolf movie you can watch, next to The Wolf Man with Lon Chaney Jr.",
+    where_to_watch: {
+      can_stream: true,
+      where: "Peacock",
+      link: "https://www.peacocktv.com/",
+    },
+    trailer: "https://youtu.be/Tfz9AhPnM8c",
+    poster:
+      "https://m.media-amazon.com/images/I/619De5qUXjL._AC_SY741_.jpg",
+    background: "https://cdn.flickeringmyth.com/wp-content/uploads/2021/08/an-american-werewolf-in-london.jpg",
+  },
 ];
 
 export default movies;
