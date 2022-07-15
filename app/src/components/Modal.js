@@ -37,7 +37,7 @@ export default function Modal({ open, onClose, data }) {
           backgroundSize: "contain",
           backgroundPosition: "center",
         }}
-        className="fixed top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-white p-14 z-[1000] w-10/12 text-slate-50 grid grid-cols-1 lg:grid-cols-3 h-auto lg:h-4/6"
+        className="fixed top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-white lg:p-14 z-[1000] w-10/12 text-slate-50 grid grid-cols-1 lg:grid-cols-3 max-h-[100vh] lg:h-4/6 overflow-y-auto"
       >
         <div className="hidden lg:block">
           <img src={poster} alt={name} className="w-3/4" />
@@ -76,7 +76,7 @@ export default function Modal({ open, onClose, data }) {
               <h3 className="text-xl lg:text-3xl">No</h3>
             )}
           </section>
-          <section className="flex justify-between pt-10 lg:px-10">
+          <section className="flex justify-between pt-4 lg:pt-10 lg:px-10">
             <a className="text-lg lg:text-3xl text-red-600 bg-black rounded-lg" href={trailer} target="_blank" rel="noreferrer">
               Check out the Trailer!
             </a>
