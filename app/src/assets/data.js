@@ -1,6 +1,6 @@
 const movies = [
   {
-    _id: "1",
+    _id: 1,
     name: "Horror of Dracula",
     release: 1958,
     cast: [
@@ -34,7 +34,7 @@ const movies = [
       "https://c4.wallpaperflare.com/wallpaper/353/957/131/count-dracula-wallpaper-preview.jpg",
   },
   {
-    _id: "2",
+    _id: 2,
     name: "The Curse of Frankenstein",
     release: 1957,
     cast: [
@@ -67,7 +67,7 @@ const movies = [
       "https://quadcinema.com/wp-content/uploads/2018/05/Curse-of-Frankenstein-1400x783.png",
   },
   {
-    _id: "3",
+    _id: 3,
     name: "The Return of the Living Dead",
     release: 1985,
     cast: [
@@ -99,7 +99,7 @@ const movies = [
     background: "https://images7.alphacoders.com/524/524707.jpg",
   },
   {
-    _id: "4",
+    _id: 4,
     name: "Cube",
     release: 1997,
     cast: [
@@ -133,7 +133,7 @@ const movies = [
       "https://static1.moviewebimages.com/wordpress/wp-content/uploads/2022/02/cube-4-1.png?q=50&fit=crop&w=1280&dpr=1.5",
   },
   {
-    _id: "5",
+    _id: 5,
     name: "The Fly (1958)",
     release: 1958,
     cast: [
@@ -166,7 +166,7 @@ const movies = [
     background: "http://www.skjam.com/wp-content/uploads/2019/09/Fly.png",
   },
   {
-    _id: "6",
+    _id: 6,
     name: "The Fly (1986)",
     release: 1986,
     cast: [
@@ -199,7 +199,7 @@ const movies = [
     background: "https://media.timeout.com/images/101630201/750/422/image.jpg",
   },
   {
-    _id: "7",
+    _id: 7,
     name: "An American Werewolf in London",
     release: 1981,
     cast: [
@@ -230,6 +230,171 @@ const movies = [
     poster:
       "https://m.media-amazon.com/images/I/619De5qUXjL._AC_SY741_.jpg",
     background: "https://cdn.flickeringmyth.com/wp-content/uploads/2021/08/an-american-werewolf-in-london.jpg",
+  },
+  {
+    _id: 8,
+    name: "Re-Animator",
+    release: 1985,
+    cast: [
+      {
+        name: "Jeffery Combs",
+      },
+      {
+        name: "Bruce Abbott",
+      },
+      {
+        name: "Barbara Crampton",
+      },
+      {
+        name: "David Gale",
+      },
+    ],
+    director: "Stuart Gordon",
+    synopsis:
+      "Loosely based on H P Lovecraft's classic horror tale, Herbert West is a young scientist who has a good head on his shoulders and another on the lab table in front of him.",
+    why_you_should_watch:
+      "It's Frankenstein, but in the 80's, and with a FUCKTON of gore!",
+    where_to_watch: {
+      can_stream: true,
+      where: "Tubi",
+      link: "https://www.tubitv.com/",
+    },
+    trailer: "https://youtu.be/zf-5_Je_D80",
+    poster:
+      "https://m.media-amazon.com/images/I/51baky4PQpL._AC_.jpg",
+    background: "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/fa825aa080f5b7e57070fcfa09166a7cde95a3b588ae4edfc237e951f5076f78._RI_V_TTW_.jpg",
+  },
+  {
+    _id: 9,
+    name: "Frankenstein Meets the Wolf Man",
+    release: 1943,
+    cast: [
+      {
+        name: "Bela Lugosi",
+      },
+      {
+        name: "Lon Chaney Jr.",
+      },
+      {
+        name: "Maria Ouspenskaya",
+      },
+      {
+        name: "Ilona Massey",
+      },
+    ],
+    director: "Roy William Neill",
+    synopsis:
+      "Lawrence Stewart Talbot (Lon Chaney Jr.) is plagued by a physical oddity that turns him into a crazed werewolf after sundown. His desire to rid himself of this ailment leads him to the castle owned by mad scientist Dr. Frankenstein. Frankenstein, it turns out, is now dead, yet Talbot believes that the scientist's daughter, Baroness Elsa Frankenstein (Ilona Massey), can help him. However, his quest to right himself puts him on a collision course with Frankenstein's monster (Bela Lugosi).",
+    why_you_should_watch:
+      "This would be the first, and in my opinion BEST, Versus movie you can watch of the classic Universal monsters",
+    where_to_watch: {
+      can_stream: false,
+      where: null,
+      link: null,
+    },
+    trailer: "https://youtu.be/_Kaa88LIwJo",
+    poster:
+      "https://m.media-amazon.com/images/I/51y7q6vSmRL._AC_.jpg",
+    background: "https://images.bauerhosting.com/legacy/empire-tmdb/films/3076/images/xJMIt13PPYmNt212GeGHJq03p9i.jpg?format=jpg&quality=80&width=960&height=540&ratio=16-9&resize=aspectfill",
+  },
+  {
+    _id: 10,
+    name: "Evil Dead II",
+    release: 1987,
+    cast: [
+      {
+        name: "Bruce Campbell",
+      },
+      {
+        name: "Ted Raimi",
+      },
+      {
+        name: "Robert Tapert",
+      },
+      {
+        name: "Dan Hicks",
+      },
+    ],
+    director: "Sam Raimi",
+    synopsis:
+      "The second of three films in the Evil Dead series is part horror, part comedy, with Ash Williams (Bruce Campbell) once again battling horrifying demons at a secluded cabin in the woods. After discovering an audiotape left by a college professor that contains voices reading from the Book of the Dead, Ash's girlfriend Linda (Denise Bixler) becomes possessed by evil spirits that are awakened by the voices on the tape. Ash soon discovers there is no escaping the woods.",
+    why_you_should_watch:
+      "I'm telling you dude, this movie, not the first one, is so fucking right up your ally",
+    where_to_watch: {
+      can_stream: false,
+      where: null,
+      link: null,
+    },
+    trailer: "https://youtu.be/6lM3NPeEG24",
+    poster:
+      "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/525f9d18c4096628fd4109a134791313_a61abff6-57a9-4700-aa27-3fc52da55e34_500x.jpg?v=1573618825",
+    background: "https://m.media-amazon.com/images/M/MV5BZjNhN2JiNTYtOTFhOS00YjlhLThlOWYtNWM1NjEwMTZiNDMwXkEyXkFqcGdeQTNwaW5nZXN0._V1_.jpg",
+  },
+  {
+    _id: 11,
+    name: "Dead Alive",
+    release: 1992,
+    cast: [
+      {
+        name: "Tim Balme",
+      },
+      {
+        name: "Peter Jackson",
+      },
+      {
+        name: "Diana Penalver",
+      },
+      {
+        name: "Elizabeth Moody",
+      },
+    ],
+    director: "Peter Jackson",
+    synopsis:
+      "Overprotective mother Vera Cosgrove (Elizabeth Moody), spying on her grown son, Lionel (Timothy Balme), as he visits the zoo with the lovely Paquita (Diana Peñalver), is accidentally bitten by the fearsome Sumatran rat-monkey. When the bite turns his beloved mother into a zombie, Lionel tries to keep her locked safely in the basement, but her repeated escapes turn most of the neighbors into the walking dead, who then crash a high-society party thrown by Lionel's boorish Uncle Les (Ian Watkin).",
+    why_you_should_watch:
+      "You have never seen anything as gory as this, trust me...",
+    where_to_watch: {
+      can_stream: false,
+      where: null,
+      link: null,
+    },
+    trailer: "https://youtu.be/O8LIug1cP04",
+    poster:
+      "https://cdn10.bigcommerce.com/s-yhxhf/products/22865/images/88384/HMOV095_4X5_PREVIEW__51020.1570945608.1080.1080.jpg?c=2",
+    background: "https://www.themoviedb.org/t/p/w780/te7PK3CrO7SWeNaiGfswWqpM4eH.jpg",
+  },
+  {
+    _id: 12,
+    name: "CREEPSHOW",
+    release: 1982,
+    cast: [
+      {
+        name: "Adrienne Barbeau",
+      },
+      {
+        name: "Stephen King",
+      },
+      {
+        name: "Tom Savini",
+      },
+      {
+        name: "Leslie Nielsen",
+      },
+    ],
+    director: "George A. Romero",
+    synopsis:
+      "A compendium of five short but terrifying tales contained within a single full-length feature, this film conjures scares from traditional bogeymen and portents of doom. In one story, a monster escapes from its holding cell. Another focuses on a husband (Leslie Nielsen) with a creative way of getting back at his cheating wife. Other stories concern a rural man (Stephen King) and a visitor from outer space, and a homeowner (E.G. Marshall) with huge bug problems and a boozing corpse.",
+    why_you_should_watch:
+      "This anthology series is peak horror, it's directed by George Romero, written by Stephen King, what more could you ask for!",
+    where_to_watch: {
+      can_stream: false,
+      where: null,
+      link: null,
+    },
+    trailer: "https://youtu.be/owdnnaNs2RI",
+    poster:
+      "https://m.media-amazon.com/images/I/A1mwzleRP5L._AC_SY741_.jpg",
+    background: "https://bloody-disgusting.com/wp-content/uploads/2020/09/creepshow-animated.png",
   },
 ];
 
